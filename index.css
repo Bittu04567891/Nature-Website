@@ -1,0 +1,47 @@
+body {
+    background-image: url(image/background.jpg);
+    font-style: italic;
+    font-family: 'Baloo Bhai 2', cursive;
+    background-repeat: no-repeat;
+
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 6px 63px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    background-color: tomato;
+    text-emphasis-color: black;
+
+}
+
+.navbar li a {
+    font-style: none;
+    text-decoration: none;
+}
+
+.search {
+    float: right;
+    padding: 1em 2em;
+}
+
+.container {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 90px 90px 90px;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 2fr));
+
+}
+
+.box {
+    border: 2px solid black;
+    background-color: blanchedalmond;
+    padding: 14px;
+}
+
+.foots {
+    float: right;
+    flex-wrap: wrap-reverse;
+}
